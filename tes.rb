@@ -22,7 +22,7 @@ Jekyll::PluginManager.require_from_bundler
 Jekyll::Deprecator.process(ARGV)
 Mercenary.program(:jekyll) do |p|
 	p.version Jekyll::VERSION
-	p.description 'Ali kako nije tako, static site generator in Ruby'
+	p.description 'Ali kako nidddddje tako, static site generator in Ruby'
 	p.syntax 'jekyll <subcommand> [options]'
 	p.option 'source', '-s', '--source [DIR]', 'Source directory (defaults to ./)'
 	p.option 'destination', '-d', '--destination [DIR]', 'Destination directory (defaults to ./_site)'
